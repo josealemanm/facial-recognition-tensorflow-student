@@ -1,0 +1,13 @@
+.git
+.github
+.venv
+__pycache__
+.pytest_cache
+.ruff_cache
+artifacts/*
+data/raw/*
+data/processed/*
+runs/*
+*.keras
+*.joblib
+*.npz

@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: >-
+  If this educational repository helps your work, please also cite the
+  original tutorial by Cole Murray and the FaceNet paper.
+title: TensorFlow Face-Embedding Pipeline — Student Edition
+type: software
+authors:
+  - name: Student Project Contributors
+version: 0.1.0
+date-released: 2026-09-04
+license: MIT
+references:
+  - type: article
+    authors:
+      - family-names: Murray
+        given-names: Cole
+    title: Building a Facial Recognition Pipeline with Deep Learning in Tensorflow
+    year: 2017
+    url: >-
+      https://hackernoon.com/building-a-facial-recognition-pipeline-with-deep-learning-in-tensorflow-66e7645015b8
+  - type: article
+    authors:
+      - family-names: Schroff
+        given-names: Florian
+      - family-names: Kalenichenko
+        given-names: Dmitry
+      - family-names: Philbin
+        given-names: James
+    title: "FaceNet: A Unified Embedding for Face Recognition and Clustering"
+    year: 2015
+    doi: 10.1109/CVPR.2015.7298682

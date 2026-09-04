@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Local datasets and generated artifacts
+data/raw/*
+data/processed/*
+artifacts/**
+runs/**
+
+# Keep the documented directory layout
+!data/raw/train/
+!data/raw/test/
+data/raw/train/*
+data/raw/test/*
+!data/raw/train/.gitkeep
+!data/raw/test/.gitkeep
+!data/processed/train/
+!data/processed/test/
+data/processed/train/*
+data/processed/test/*
+!data/processed/train/.gitkeep
+!data/processed/test/.gitkeep
+!artifacts/.gitkeep
+
+# Large ML files should be downloaded or generated locally
+*.h5
+*.keras
+*.joblib
+*.npz
+*.pb
+*.tflite
+*.ckpt
